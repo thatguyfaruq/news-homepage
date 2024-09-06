@@ -41,6 +41,13 @@ ul {
   font-size: 10px;
   padding: 10px;
 }
+.button:hover{
+  cursor: pointer;
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
+}
+
+
 .content-2 {
   padding: 50px 20px 20px 10px;
   background-color: var(--very-dark-blue);
@@ -53,7 +60,7 @@ ul {
 }
 
 .bottom-widget h1 {
-  color: var(--soft-orange);
+  color: var(--soft-red);
 }
 .bottom-widget {
   font-size: 12px;
@@ -74,9 +81,18 @@ h3{
   font-weight: 700;
   font-size: 15px;
 }
+h3:hover{
+  cursor: pointer;
+  color: var(--soft-red);
+}
 h5{
   font-weight: 800;
 }
+h5:hover{
+  cursor: pointer;
+  color: var(--soft-orange);
+}
+
 
 @media (max-width:375px) {
 
