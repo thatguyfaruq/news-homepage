@@ -66,16 +66,27 @@ ul {
 .mobile-image {
   display: none;
 }
+h1{
+  font-weight: 800;
+  font-size: 45px;
+}
+h3{
+  font-weight: 700;
+  font-size: 15px;
+}
+h5{
+  font-weight: 800;
+}
 
 @media (max-width:375px) {
 
 
   .desktop-image {
-    display: block;
+    display: none;
   }
 
   .mobile-image {
-    display: none;
+    display: block;
   }
 .content-2{
 margin-top: 10px;
